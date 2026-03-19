@@ -11,5 +11,13 @@ int main() {
 
     cout<<pizza1->costo()<<endl;
     cout<<pizza1->descripcion()<<endl;
+
+    Ingredientes* pizza2 = new Hawaiiana((new Peperoni(new Suprema(new pizzaBase()))));
+    cout<<pizza2->costo()<<endl;
+    cout<<pizza2->descripcion()<<endl;
+
+    delete pizza1;
+    delete pizza2;
+
     return 0;
 }

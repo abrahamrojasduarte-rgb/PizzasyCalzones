@@ -5,6 +5,10 @@ using namespace std;
 #include "Suprema.h"
 #include "Peperoni.h"
 #include "Hawaiiana.h"
+#include "calzoneBase.h"
+#include "Pollo.h"
+#include "Escandalosos.h"
+#include "supremaC.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     Ingredientes* pizza1 = new Suprema((new Peperoni(new pizzaBase())));
@@ -19,5 +23,12 @@ int main() {
     delete pizza1;
     delete pizza2;
 
+    Ingredientes* calzone1 = new supremaC((new Pollo(new calzoneBase())));
+    cout<<calzone1->costo()<<endl;
+    cout<<calzone1->descripcion()<<endl;
+
+    Ingredientes* calzone2 = new Pollo(new Escandalosos(new calzoneBase()));
+    cout<<calzone2->costo()<<endl;
+    cout<<calzone2->descripcion()<<endl;
     return 0;
 }

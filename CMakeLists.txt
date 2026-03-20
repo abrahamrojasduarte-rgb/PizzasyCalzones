@@ -21,4 +21,8 @@ add_executable(Clase_10 main.cpp
         calzoneBase.cpp
         calzoneBase.h
         Escandalosos.cpp
-        Escandalosos.h)
+        Escandalosos.h
+        supremaC.cpp
+        supremaC.h
+        Pollo.cpp
+        Pollo.h)

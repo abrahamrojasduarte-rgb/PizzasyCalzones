@@ -9,6 +9,9 @@ using namespace std;
 #include "Pollo.h"
 #include "Escandalosos.h"
 #include "supremaC.h"
+#include "focacciaBase.h"
+#include "FCebolla.h"
+#include "FAceiteCarro.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     Ingredientes* pizza1 = new Suprema((new Peperoni(new pizzaBase())));
@@ -30,5 +33,16 @@ int main() {
     Ingredientes* calzone2 = new Pollo(new Escandalosos(new calzoneBase()));
     cout<<calzone2->costo()<<endl;
     cout<<calzone2->descripcion()<<endl;
+
+    delete calzone1;
+    delete calzone2;
+
+    Ingredientes* Focaccia1 = new FCebolla(new focacciaBase());
+    cout<<Focaccia1->costo()<<endl;
+    cout<<Focaccia1->descripcion()<<endl;
+
+    Ingredientes* Focaccia2 = new FAceiteCarro(new focacciaBase());
+    cout<<Focaccia2->costo()<<endl;
+    cout<<Focaccia2->descripcion()<<endl;
     return 0;
 }

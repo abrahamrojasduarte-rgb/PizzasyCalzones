@@ -25,4 +25,12 @@ add_executable(Clase_10 main.cpp
         supremaC.cpp
         supremaC.h
         Pollo.cpp
-        Pollo.h)
+        Pollo.h
+        decoradorFocaccia.cpp
+        decoradorFocaccia.h
+        focacciaBase.cpp
+        focacciaBase.h
+        FCebolla.cpp
+        FCebolla.h
+        FAceiteCarro.cpp
+        FAceiteCarro.h)

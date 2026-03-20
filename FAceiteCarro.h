@@ -10,7 +10,7 @@
 class FAceiteCarro : public decoradorFocaccia{
 public:
     FAceiteCarro();
-    FAceiteCarro(Ingredientes* ingredientes);
+    FAceiteCarro( Ingredientes* ingredientes);
     double costo()const override;
     string descripcion()const override;
 };

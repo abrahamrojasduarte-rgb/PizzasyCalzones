@@ -8,7 +8,7 @@ decoradorFocaccia::decoradorFocaccia() {
     this->ingre = nullptr;
 }
 
-decoradorFocaccia::decoradorFocaccia(Ingredientes *ingre) {
+decoradorFocaccia::decoradorFocaccia(Ingredientes  *ingre) {
     this->ingre = ingre;
 }
 

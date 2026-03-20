@@ -9,7 +9,7 @@
 
 class focacciaBase :public decoradorFocaccia{
 public:
-    string descripcion() const override;
+    string descripcion()  const override;
     double costo() const override;
 
 };

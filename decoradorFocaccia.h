@@ -10,7 +10,7 @@ class decoradorFocaccia: public Ingredientes {
 protected:
     Ingredientes* ingre;
 public:
-    explicit decoradorFocaccia(Ingredientes* ingre);
+    explicit decoradorFocaccia(Ingredientes*  ingre);
     decoradorFocaccia();
     ~decoradorFocaccia() override;
 };

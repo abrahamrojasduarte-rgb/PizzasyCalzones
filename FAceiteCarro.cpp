@@ -5,7 +5,7 @@
 #include "FAceiteCarro.h"
 
 double FAceiteCarro::costo() const {
-    return this->ingre->costo() + 100;
+    return this->ingre->costo()  + 100;
 }
 string FAceiteCarro::descripcion() const {
     return this->ingre->descripcion() + " con aceite";

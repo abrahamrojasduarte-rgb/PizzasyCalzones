@@ -37,11 +37,11 @@ int main() {
     delete calzone1;
     delete calzone2;
 
-    Ingredientes* Focaccia1 = new FCebolla(new focacciaBase());
+    Ingredientes* Focaccia1 = new FAceiteCarro(new focacciaBase());
     cout<<Focaccia1->costo()<<endl;
     cout<<Focaccia1->descripcion()<<endl;
 
-    Ingredientes* Focaccia2 = new FAceiteCarro(new focacciaBase());
+    Ingredientes* Focaccia2 = new FCebolla(new focacciaBase());
     cout<<Focaccia2->costo()<<endl;
     cout<<Focaccia2->descripcion()<<endl;
     return 0;

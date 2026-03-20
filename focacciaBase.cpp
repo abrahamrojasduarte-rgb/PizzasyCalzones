@@ -5,7 +5,7 @@
 #include "focacciaBase.h"
 
 double focacciaBase::costo() const {
-    return 2000;
+    return 1900;
 }
 string focacciaBase::descripcion() const {
     return "Focaccia ";

@@ -10,7 +10,7 @@
 class FCebolla : public decoradorFocaccia{
 public:
     FCebolla();
-    FCebolla(Ingredientes* ingre);
+    FCebolla(Ingredientes*  ingre);
     double costo()const override;
     string descripcion()const override;
 };

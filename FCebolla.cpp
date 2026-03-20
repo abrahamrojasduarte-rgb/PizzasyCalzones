@@ -5,7 +5,7 @@
 #include "FCebolla.h"
 
 double FCebolla::costo() const {
-    return this->ingre->costo() + 400;
+    return this->ingre->costo() + 450;
 }
 string FCebolla::descripcion() const {
     return this->ingre->descripcion() + " de cebolla";

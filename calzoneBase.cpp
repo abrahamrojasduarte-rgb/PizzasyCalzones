@@ -9,4 +9,6 @@
 double calzoneBase::costo() const {
     return 1500;
 }
-string calzoneBase::descripcion() const {}
+string calzoneBase::descripcion() const {
+    return "Calzone ";
+}

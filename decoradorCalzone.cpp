@@ -4,13 +4,13 @@
 
 #include "decoradorCalzone.h"
  decoradorCalzone::decoradorCalzone() {
-  this-> calzone = nullptr;
+  this-> ingre = nullptr;
 }
 
- decoradorCalzone::decoradorCalzone(Calzone *calzone) {
-  this-> calzone = calzone;
+ decoradorCalzone::decoradorCalzone(Ingredientes *calzone) {
+  this-> ingre = calzone;
 }
 
  decoradorCalzone::~decoradorCalzone() {
-  delete calzone;
+  delete ingre;
 }

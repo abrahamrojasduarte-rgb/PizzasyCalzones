@@ -9,5 +9,5 @@ double pizzaBase::costo() const {
 }
 
 string pizzaBase::descripcion() const {
-    return "pizza";
+    return "pizza ";
 }

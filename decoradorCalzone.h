@@ -4,15 +4,15 @@
 
 #ifndef CLASE_10_DECORADORCALZONE_H
 #define CLASE_10_DECORADORCALZONE_H
-#include "Calzone.h"
+#include "Ingredientes.h"
 
 
-class decoradorCalzone : public Calzone {
+class decoradorCalzone : public Ingredientes {
 protected:
-    Calzone* calzone;
+    Ingredientes* ingre;
 public:
     decoradorCalzone();
-    explicit decoradorCalzone(Calzone* calzone);
+    explicit decoradorCalzone(Ingredientes* ingre);
     ~decoradorCalzone() override;
 };
 

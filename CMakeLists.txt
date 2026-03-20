@@ -16,9 +16,9 @@ add_executable(Clase_10 main.cpp
         Suprema.h
         Hawaiiana.cpp
         Hawaiiana.h
-        Calzone.cpp
-        Calzone.h
         decoradorCalzone.cpp
         decoradorCalzone.h
         calzoneBase.cpp
-        calzoneBase.h)
+        calzoneBase.h
+        Escandalosos.cpp
+        Escandalosos.h)
